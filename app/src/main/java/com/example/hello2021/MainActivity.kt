@@ -18,7 +18,17 @@ class MainActivity : AppCompatActivity() {
         txv.text = "Master分支"
     }
 
+        var txv: TextView = findViewById<TextView>(R.id.txv)
+        txv.text = "Hello tcyang"
+        TestDEV()
+    }
 
-
+    fun TestDEV(){
+        var txv:TextView = findViewById<TextView>(R.id.txv)
+        txv.text = "Dev分支"
+    }
 }
+
+
+    }
 }
